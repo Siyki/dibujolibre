@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_drawable_canvas import st_canvas
 
-st.title("Tablero para dibujo")
+st.title("Tablerito de Dibujito")
 
 with st.sidebar:
     st.subheader("Propiedades del Tablero")
@@ -19,7 +19,7 @@ canvas_result = st_canvas(
     stroke_width=stroke_width,
     stroke_color=stroke_color,
     background_color=bg_color,
-    height=300,
+    height=700,
     width=500,
     drawing_mode=drawing_mode,
     key="canvas",
